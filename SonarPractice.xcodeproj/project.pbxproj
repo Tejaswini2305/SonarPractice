@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81E5DC8AE1268EDD5A3C8500 /* Pods_SonarPractice_SonarPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55454B38EF9BA5848E5AF39 /* Pods_SonarPractice_SonarPracticeUITests.framework */; };
 		9D359CE92A5C29FC009AF977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D359CE82A5C29FC009AF977 /* AppDelegate.swift */; };
 		9D359CEB2A5C29FC009AF977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D359CEA2A5C29FC009AF977 /* SceneDelegate.swift */; };
 		9D359CED2A5C29FC009AF977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D359CEC2A5C29FC009AF977 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		9D359D032A5C2A00009AF977 /* SonarPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D359D022A5C2A00009AF977 /* SonarPracticeTests.swift */; };
 		9D359D0D2A5C2A01009AF977 /* SonarPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D359D0C2A5C2A01009AF977 /* SonarPracticeUITests.swift */; };
 		9D359D0F2A5C2A01009AF977 /* SonarPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D359D0E2A5C2A01009AF977 /* SonarPracticeUITestsLaunchTests.swift */; };
+		9D359D1C2A5C2ADC009AF977 /* sonar-project.properties in Resources */ = {isa = PBXBuildFile; fileRef = 9D359D1B2A5C2ADC009AF977 /* sonar-project.properties */; };
+		C37F520BA9FB65FD1CBEE13D /* Pods_SonarPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BBC4CB2E3329CF1D3C8F94 /* Pods_SonarPractice.framework */; };
+		F58B7002F970465E7DBB397B /* Pods_SonarPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBEB293E9CA19C541868814 /* Pods_SonarPracticeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BBEB293E9CA19C541868814 /* Pods_SonarPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D359CE52A5C29FC009AF977 /* SonarPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonarPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D359CE82A5C29FC009AF977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D359CEA2A5C29FC009AF977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		9D359D082A5C2A01009AF977 /* SonarPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D359D0C2A5C2A01009AF977 /* SonarPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarPracticeUITests.swift; sourceTree = "<group>"; };
 		9D359D0E2A5C2A01009AF977 /* SonarPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D359D1B2A5C2ADC009AF977 /* sonar-project.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sonar-project.properties"; sourceTree = "<group>"; };
+		9E8E28305F70270CA582FE2B /* Pods-SonarPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-SonarPracticeTests/Pods-SonarPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A739D37F4616319463B65F87 /* Pods-SonarPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarPractice.release.xcconfig"; path = "Target Support Files/Pods-SonarPractice/Pods-SonarPractice.release.xcconfig"; sourceTree = "<group>"; };
+		A7BBC4CB2E3329CF1D3C8F94 /* Pods_SonarPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4B70537979954C81A92E61 /* Pods-SonarPractice-SonarPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarPractice-SonarPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-SonarPractice-SonarPracticeUITests/Pods-SonarPractice-SonarPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD8DAD63246A5CA7A3B7CE62 /* Pods-SonarPractice-SonarPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarPractice-SonarPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SonarPractice-SonarPracticeUITests/Pods-SonarPractice-SonarPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B55454B38EF9BA5848E5AF39 /* Pods_SonarPractice_SonarPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonarPractice_SonarPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E30462186A2CD12ACA34CF /* Pods-SonarPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarPractice.debug.xcconfig"; path = "Target Support Files/Pods-SonarPractice/Pods-SonarPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		F29B566F4025B2E1CE667470 /* Pods-SonarPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonarPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-SonarPracticeTests/Pods-SonarPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37F520BA9FB65FD1CBEE13D /* Pods_SonarPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58B7002F970465E7DBB397B /* Pods_SonarPracticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E5DC8AE1268EDD5A3C8500 /* Pods_SonarPractice_SonarPracticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2395894F7F69443680FE014B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BBC4CB2E3329CF1D3C8F94 /* Pods_SonarPractice.framework */,
+				B55454B38EF9BA5848E5AF39 /* Pods_SonarPractice_SonarPracticeUITests.framework */,
+				5BBEB293E9CA19C541868814 /* Pods_SonarPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B549D794E028A3A699EB97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0E30462186A2CD12ACA34CF /* Pods-SonarPractice.debug.xcconfig */,
+				A739D37F4616319463B65F87 /* Pods-SonarPractice.release.xcconfig */,
+				AD8DAD63246A5CA7A3B7CE62 /* Pods-SonarPractice-SonarPracticeUITests.debug.xcconfig */,
+				AA4B70537979954C81A92E61 /* Pods-SonarPractice-SonarPracticeUITests.release.xcconfig */,
+				F29B566F4025B2E1CE667470 /* Pods-SonarPracticeTests.debug.xcconfig */,
+				9E8E28305F70270CA582FE2B /* Pods-SonarPracticeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D359CDC2A5C29FC009AF977 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				9D359D012A5C2A00009AF977 /* SonarPracticeTests */,
 				9D359D0B2A5C2A01009AF977 /* SonarPracticeUITests */,
 				9D359CE62A5C29FC009AF977 /* Products */,
+				79B549D794E028A3A699EB97 /* Pods */,
+				2395894F7F69443680FE014B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +152,7 @@
 				9D359CF62A5C2A00009AF977 /* LaunchScreen.storyboard */,
 				9D359CF92A5C2A00009AF977 /* Info.plist */,
 				9D359CF12A5C29FC009AF977 /* SonarPractice.xcdatamodeld */,
+				9D359D1B2A5C2ADC009AF977 /* sonar-project.properties */,
 			);
 			path = SonarPractice;
 			sourceTree = "<group>";
@@ -137,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D359D122A5C2A01009AF977 /* Build configuration list for PBXNativeTarget "SonarPractice" */;
 			buildPhases = (
+				57978F32DA8EB380216E840D /* [CP] Check Pods Manifest.lock */,
 				9D359CE12A5C29FC009AF977 /* Sources */,
 				9D359CE22A5C29FC009AF977 /* Frameworks */,
 				9D359CE32A5C29FC009AF977 /* Resources */,
@@ -154,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D359D152A5C2A01009AF977 /* Build configuration list for PBXNativeTarget "SonarPracticeTests" */;
 			buildPhases = (
+				846E83FF90ED320711DDF575 /* [CP] Check Pods Manifest.lock */,
 				9D359CFA2A5C2A00009AF977 /* Sources */,
 				9D359CFB2A5C2A00009AF977 /* Frameworks */,
 				9D359CFC2A5C2A00009AF977 /* Resources */,
@@ -172,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D359D182A5C2A01009AF977 /* Build configuration list for PBXNativeTarget "SonarPracticeUITests" */;
 			buildPhases = (
+				B8F05633ED4C838BD4E7064E /* [CP] Check Pods Manifest.lock */,
 				9D359D042A5C2A01009AF977 /* Sources */,
 				9D359D052A5C2A01009AF977 /* Frameworks */,
 				9D359D062A5C2A01009AF977 /* Resources */,
@@ -236,6 +283,7 @@
 			files = (
 				9D359CF82A5C2A00009AF977 /* LaunchScreen.storyboard in Resources */,
 				9D359CF52A5C2A00009AF977 /* Assets.xcassets in Resources */,
+				9D359D1C2A5C2ADC009AF977 /* sonar-project.properties in Resources */,
 				9D359CF02A5C29FC009AF977 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +303,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57978F32DA8EB380216E840D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		846E83FF90ED320711DDF575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F05633ED4C838BD4E7064E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonarPractice-SonarPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D359CE12A5C29FC009AF977 /* Sources */ = {
@@ -436,6 +553,7 @@
 		};
 		9D359D132A5C2A01009AF977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0E30462186A2CD12ACA34CF /* Pods-SonarPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +582,7 @@
 		};
 		9D359D142A5C2A01009AF977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A739D37F4616319463B65F87 /* Pods-SonarPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +611,7 @@
 		};
 		9D359D162A5C2A01009AF977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29B566F4025B2E1CE667470 /* Pods-SonarPracticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +632,7 @@
 		};
 		9D359D172A5C2A01009AF977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8E28305F70270CA582FE2B /* Pods-SonarPracticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +653,7 @@
 		};
 		9D359D192A5C2A01009AF977 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8DAD63246A5CA7A3B7CE62 /* Pods-SonarPractice-SonarPracticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +672,7 @@
 		};
 		9D359D1A2A5C2A01009AF977 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4B70537979954C81A92E61 /* Pods-SonarPractice-SonarPracticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
