@@ -1,0 +1,6 @@
+framework module Pods_SonarPracticeTests {
+  umbrella header "Pods-SonarPracticeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
