@@ -3,21 +3,21 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - SonarPracticeBranch
 
 
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: macos
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_TOKEN: sqp_7469d77c21cbc2f82273d54436430865e5254e12
+          SONAR_HOST_URL: http://localhost:9000
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
       # - uses: sonarsource/sonarqube-quality-gate-action@master
